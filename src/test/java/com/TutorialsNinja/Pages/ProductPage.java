@@ -12,14 +12,23 @@ public class ProductPage {
 	@FindBy(linkText = "HP LP3065")
 	private WebElement HPLaptop;	
 	
+	@FindBy(linkText = "HP LP3065")
+	private WebElement HPLP3065;
+	
+	
 	public ProductPage(WebDriver driver) {
 		this.driver	= driver;
 		PageFactory.initElements(driver, this);
 	}
+	
 	
 	public boolean displayStatusOfHPLaptop() {
 		boolean status = HPLaptop.isDisplayed();
 		return status;
 	}
 	
+	public void clickOnHPLP3065() {
+		HPLP3065.click();
+	}
+
 }

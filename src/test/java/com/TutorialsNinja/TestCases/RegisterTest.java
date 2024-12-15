@@ -24,9 +24,8 @@ public RegisterTest() throws Exception {
 	public RegisterPage registerPage;
 	AccountSuccessPage accountSuccessPage;
 	
-	
 	@BeforeMethod
-	public void registerPageSetup() {
+	public void setup() {
 		driver = initializeBrowserOpenApplication(prop.getProperty("browser"));
 		landingPage = new LandingPage(driver);		
 		landingPage.clickOnMyAccountDropdown();

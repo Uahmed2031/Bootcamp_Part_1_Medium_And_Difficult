@@ -12,7 +12,6 @@ public class AccountSuccessPage {
 	@FindBy(xpath = "//p[text() = 'Congratulations! Your new account has been successfully created!']")
 	private WebElement accountSuccessMessage;
 	
-	
 	public AccountSuccessPage(WebDriver driver) {
 		this.driver	= driver;
 		PageFactory.initElements(driver, this);
@@ -22,4 +21,5 @@ public class AccountSuccessPage {
 		boolean displayStatus = accountSuccessMessage.isDisplayed();
 		return displayStatus;
 	}
+	
 }

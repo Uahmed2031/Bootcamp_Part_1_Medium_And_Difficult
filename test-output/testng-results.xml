@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-20T23:16:52 EST" name="Default suite" finished-at="2024-11-20T23:16:56 EST" duration-ms="4795">
+  <suite started-at="2024-12-14T21:37:52 EST" name="Default suite" finished-at="2024-12-14T21:37:57 EST" duration-ms="5493">
     <groups>
     </groups>
-    <test started-at="2024-11-20T23:16:52 EST" name="Default test" finished-at="2024-11-20T23:16:56 EST" duration-ms="4795">
-      <class name="com.TutorialsNinja.TestCases.SearchProductTest">
-        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.TutorialsNinja.TestCases.SearchProductTest@6f1de4c7]" started-at="2024-11-20T23:16:52 EST" name="searchProductSetup" finished-at="2024-11-20T23:16:54 EST" duration-ms="1896" status="PASS">
+    <test started-at="2024-12-14T21:37:52 EST" name="Default test" finished-at="2024-12-14T21:37:57 EST" duration-ms="5493">
+      <class name="com.TutorialsNinja.TestCases.LandingpageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TutorialsNinja.TestCases.LandingpageTest@6f1de4c7]" started-at="2024-12-14T21:37:52 EST" name="setup" finished-at="2024-12-14T21:37:54 EST" duration-ms="1946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProductSetup -->
-        <test-method signature="verifySearchProductResult()[pri:0, instance:com.TutorialsNinja.TestCases.SearchProductTest@6f1de4c7]" started-at="2024-11-20T23:16:54 EST" name="verifySearchProductResult" finished-at="2024-11-20T23:16:56 EST" duration-ms="2725" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="navigateToDifferentPage()[pri:0, instance:com.TutorialsNinja.TestCases.LandingpageTest@6f1de4c7]" started-at="2024-12-14T21:37:54 EST" name="navigateToDifferentPage" finished-at="2024-12-14T21:37:57 EST" duration-ms="3237" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchProductResult -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.TestCases.SearchProductTest@6f1de4c7]" started-at="2024-11-20T23:16:56 EST" name="tearDown" finished-at="2024-11-20T23:16:56 EST" duration-ms="136" status="PASS">
+        </test-method> <!-- navigateToDifferentPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TutorialsNinja.TestCases.LandingpageTest@6f1de4c7]" started-at="2024-12-14T21:37:57 EST" name="tearDown" finished-at="2024-12-14T21:37:57 EST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.TutorialsNinja.TestCases.SearchProductTest -->
+      </class> <!-- com.TutorialsNinja.TestCases.LandingpageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

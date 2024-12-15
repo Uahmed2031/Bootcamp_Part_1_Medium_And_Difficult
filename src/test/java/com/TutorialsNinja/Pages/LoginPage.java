@@ -18,6 +18,9 @@ public class LoginPage {
 	@FindBy(css = "input.btn.btn-primary")
 	private WebElement loginButton;	
 	
+	@FindBy(xpath = "//h2[text() = 'Returning Customer']")
+	private WebElement returningCustomerText;
+	
 	public LoginPage(WebDriver driver) {
 		this.driver	= driver;
 		PageFactory.initElements(driver, this);
@@ -35,7 +38,10 @@ public class LoginPage {
 		loginButton.click();
 	}
 	
-	
+	public boolean displayReturningCustomerText() {
+		boolean status = returningCustomerText.isDisplayed();
+		return status;
+	}
 	
 	
 }
